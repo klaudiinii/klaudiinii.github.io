@@ -1,0 +1,23 @@
+/*
+
+
+
+@media all(max-width:992px) {
+        .portfolio-wrapper a {
+            width: 50%;
+        }
+    }
+
+@media all(max-width:768px) {
+        .portfolio-wrapper a {
+            width: 100%;
+        }
+    }
+
+@media all(max-width:480px) {
+        .portfolio-wrapper a {
+            width: 100%;
+        }  
+    }
+    
+*/
