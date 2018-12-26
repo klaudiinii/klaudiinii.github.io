@@ -1,0 +1,25 @@
+#accordion {
+    padding: 0px 15px 0px 15px;
+}
+
+.btn-color {
+    color: #f0ad4e;
+    text-decoration: none;
+}
+
+.btn-color:hover {
+    color: #8a9dad;
+    text-decoration-line: #8a9dad;
+}
+
+h2 {
+    color: #8a9dad;
+}
+
+hr {
+    width: 300px;
+    background-color: #8a9dad;
+    border: solid 1px #8a9dad;
+    margin-bottom: 5px;
+}
+
