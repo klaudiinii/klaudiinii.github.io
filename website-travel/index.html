@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    
+    
+        <link rel="stylesheet" href="css/main.css">
+    
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-light fixed-top navbar-expand-lg">
+        <div class="container">
+
+            <!-- LOGO -->
+
+
+            <a class="navbar-brand" href="#">Klub podróżniczy</a>
+
+
+            <!-- button TOGGLER  -->
+            <!-- *  JEST TU NAVBAR TOGGLER, KTÓRY STWARZA NAM TEN ROZWIJANY KWADRACIK I DATA-TOGGLE COLLAPSE KTORY WLACZA ZAPADANIE MENU NA WERTYKALNE  * -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- ZAWARTOŚĆ MENU NAWIGACJI, KTÓRĄ PODPIELIŚLY WYŻEJ PRZEZ DATA-TARGET-->
+
+            <div class="collapse navbar-collapse navbar-right" id="main-nav">
+
+
+
+                <div class="navbar-nav">
+
+
+                    <a class="nav-link nav-item" href="#join"> Dołącz do nas </a>
+
+
+
+                    <a class="nav-link nav-item" href="#inspirations"> Inspiracje </a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- PIERWSZA SEKCJA -->
+
+    <section id="join" class="main-form">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <form>
+
+                        <header class="row">
+                            <div class="col-10 col-md-9 col-xl-10">
+                                <h2>Dołącz do nas</h2>
+                                <p>Wypełnij zgłoszenie na członka klubu:</p>
+                            </div>
+                            <div class="col-2 col-md-3 col-xl-2">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                        </header>
+
+                        <fieldset>
+                            <input type="text" id="name" placeholder="Imię i nazwisko">
+                            <input type="email" id="email" placeholder="Email">
+                            <input type="tel" id="phone" placeholder="Telefon">
+
+                            <textarea id="message" rows="3" placeholder="Kilka słów o sobie"></textarea>
+
+                            <input type="submit" class="btn btn-primary btn-orange" value="Zapisz się!">
+
+                            <p class="text-center">Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych
+                                zgodnie z <a href="">Polityką prywatności</a>
+                            </p>
+
+                        </fieldset>
+
+                    </form>
+                </div>
+
+                <div class="col-md-6 col-lg-7 text-center">
+
+                    <div class="content-holder">
+                        <h1>Świat jest na wyciagnięcie ręki</h1>
+                        <p>Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się, jak wygląda życie
+                            bez granic</p>
+                        <a href="" class="btn btn-primary btn-orange">Znajdź nas <i class="fas fa-angle-right"></i></a>
+                        <a href="" class="btn btn-primary btn-gray">Dowiedz się więcej <i class="far fa-lightbulb"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- DRUGA SEKCJA -->
+
+    <section class="inspirations">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 video-holder">
+
+                    <div class="embed-responsive embed-responsive-16by9 embeed-video">
+                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/234677070"
+                            allowfullscreen></iframe>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-md-7 mr-20">
+
+
+                    <h3>Inspirujemy</h3>
+
+                    <p>Poznaj historie ludzi, którzy zrealizowali swoje marzenia</p>
+
+                    <p>Podróżowanie pozwala poznać świat i odkryć siebie. Spełniaj swoje marzenia i zdobywaj nowe
+                        pasje. Daj się ponieść przygodzie i dołącz do grona pasjonatów, którzy codziennie udowadniają,
+                        że nie ma rzeczy niemożliwych.</p>
+
+                    <a href="#">Więcej historii</a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><h3>O nas</h3>
+                        <p>Naszym głównym celem jest wymiana doświadczeń między podróżnikami podczas cyklicznych spotkań. Naszym największym kapitałem jest wiedza i zaangażowanie naszych członków.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Kontakt</h3>
+                        <a href="mailto:klub@podroznika.pl">klub@podroznika.pl</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+
+
+
+
+
+
+     <!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<!-- Popper JS  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap Scripts -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
